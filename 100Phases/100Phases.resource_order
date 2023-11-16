@@ -16,5 +16,12 @@
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_enemies","order":2,"path":"objects/obj_enemies/obj_enemies.yy",},
+    {"name":"obj_shoot","order":1,"path":"objects/obj_shoot/obj_shoot.yy",},
+    {"name":"obj_generator","order":3,"path":"objects/obj_generator/obj_generator.yy",},
+    {"name":"spr_background","order":1,"path":"sprites/spr_background/spr_background.yy",},
+    {"name":"spr_enemies01","order":3,"path":"sprites/spr_enemies01/spr_enemies01.yy",},
+    {"name":"spr_shoot","order":2,"path":"sprites/spr_shoot/spr_shoot.yy",},
+  ],
 }
