@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_shoot",
+  "name": "spr_shoot01",
   "bbox_bottom": 23,
   "bbox_left": 0,
   "bbox_right": 23,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"03d3e5bc-12cc-432b-a11b-461017a51efb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d6ea7112-b2bd-4d35-b3e5-b5b6d9dd93fd",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 24,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1437f5c0-7c65-4975-84c5-cd00d88f42ac","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"af4369aa-fae5-42ee-a814-1905cc67904f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Misc",
+    "path": "folders/Sprites/Enemies/Misc.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_shoot",
+    "name": "spr_shoot01",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"03d3e5bc-12cc-432b-a11b-461017a51efb","path":"sprites/spr_shoot/spr_shoot.yy",},},},"Disabled":false,"id":"59a0bb58-381c-4280-a716-eeafce3c45ef","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d6ea7112-b2bd-4d35-b3e5-b5b6d9dd93fd","path":"sprites/spr_shoot01/spr_shoot01.yy",},},},"Disabled":false,"id":"6e6aebbc-bde5-4ad7-9a7c-39d6f509bf68","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
