@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_explosion",
-    "path": "sprites/spr_explosion/spr_explosion.yy",
+    "name": "spr_explosion1a",
+    "path": "sprites/spr_explosion1a/spr_explosion1a.yy",
   },
   "spriteMaskId": null,
   "visible": true,

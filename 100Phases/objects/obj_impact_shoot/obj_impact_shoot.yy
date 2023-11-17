@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_impact_shoot",
-    "path": "sprites/spr_impact_shoot/spr_impact_shoot.yy",
+    "name": "spr_explosion2a",
+    "path": "sprites/spr_explosion2a/spr_explosion2a.yy",
   },
   "spriteMaskId": null,
   "visible": true,
