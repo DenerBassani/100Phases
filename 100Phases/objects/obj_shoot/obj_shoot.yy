@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shoot_alpaca",
-    "path": "sprites/spr_shoot_alpaca/spr_shoot_alpaca.yy",
+    "name": "spr_shoot",
+    "path": "sprites/spr_shoot/spr_shoot.yy",
   },
   "spriteMaskId": null,
   "visible": true,

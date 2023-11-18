@@ -27,11 +27,16 @@ generator_enemies = function ()
 	
 	var percentage = random_range(0, level);
 
-	var enemies = obj_enemies01;
+	var enemies = obj_enemies02;
 	
 	if ( percentage > 2 ) 
 	{
-		enemies = obj_enemies01;
+		enemies = obj_enemies02;
+	}
+	
+	if (percentage > 5 )
+	{
+		enemies = obj_enemies02;	
 	}
 	
 	instance_create_layer(xx, yy, "Enemies", enemies);
