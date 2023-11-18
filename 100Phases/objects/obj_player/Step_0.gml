@@ -9,8 +9,6 @@ up = keyboard_check(ord("W"));
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 
-
-
 x += (right - left)*spd;
 y += (down - up)*spd;
 

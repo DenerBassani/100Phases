@@ -3,6 +3,10 @@
 
 instance_create_layer(x,y,layer,obj_explosion)
 
+if ( instance_exists(obj_control) )
+{
+	
+	obj_control.gain_point(point);
 
-
+}
 

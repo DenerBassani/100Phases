@@ -1,12 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-spd = 5;
-hspeed = -spd;
 
-time_shoot = random_range(1,3)*room_speed;
+// Inherit the parent event
+event_inherited();
+
+point = 4;
+
+time_shoot = 1*room_speed;
 alarm[0] = time_shoot;
 
-point = 1;
+can_move = true;
 
 shooting = function(){
 	
@@ -16,9 +19,3 @@ shooting = function(){
 	}
 	
 }
-
-
-
-
-
-

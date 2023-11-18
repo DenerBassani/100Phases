@@ -1,20 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemies01",
+  "name": "obj_control",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies01",
-    "path": "folders/Objects/Enemies/Enemies01.yy",
+    "name": "Misc",
+    "path": "folders/Objects/Enemies/Misc.yy",
   },
-  "parentObjectId": {
-    "name": "obj_enemies_entities",
-    "path": "objects/obj_enemies_entities/obj_enemies_entities.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_enemies01",
-    "path": "sprites/spr_enemies01/spr_enemies01.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
