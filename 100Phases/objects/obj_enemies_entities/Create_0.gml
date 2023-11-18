@@ -6,6 +6,11 @@ hspeed = -spd;
 time_shoot = random_range(1,3)*room_speed;
 alarm[0] = time_shoot;
 
+if ( place_meeting(x, y, obj_enemies_entities) )
+{
+	instance_destroy( id, false );	
+}
+
 point = 1;
 
 shooting = function(){
