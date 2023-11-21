@@ -2,7 +2,9 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_shoot03",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_alpaca",
-    "path": "sprites/spr_player_alpaca/spr_player_alpaca.yy",
+    "name": "spr_shoot01",
+    "path": "sprites/spr_shoot01/spr_shoot01.yy",
   },
   "spriteMaskId": null,
   "visible": true,

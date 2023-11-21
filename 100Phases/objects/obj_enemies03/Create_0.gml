@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-point = 4;
+point = 40;
 
 time_shoot = 1*room_speed;
 alarm[0] = time_shoot;

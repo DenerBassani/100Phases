@@ -1,6 +1,7 @@
 /// @description Init Variables
 // You can write your code in this editor
 
+life = 100;
 spd = 5;
 
 shooting = function(){

@@ -3,7 +3,7 @@
 spd = 5;
 hspeed = -spd;
 
-time_shoot = random_range(1,3)*room_speed;
+time_shoot = 10*room_speed;
 alarm[0] = time_shoot;
 
 if ( place_meeting(x, y, obj_enemies_entities) )
@@ -17,7 +17,9 @@ shooting = function(){
 	
 	if( x>=0 )
 	{
-		instance_create_layer(x,y,"Fires",obj_shoot01);	
+		
+		var _inst = instance_create_layer(x,y,"Fires",obj_shoot01);	
+		
 	}
 	
 }

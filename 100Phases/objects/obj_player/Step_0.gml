@@ -14,3 +14,8 @@ y += (down - up)*spd;
 
 shooting()
 
+if ( life <= 0 ) {
+	
+	game_restart();
+	
+}

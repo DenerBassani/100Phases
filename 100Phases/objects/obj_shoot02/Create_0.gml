@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+damage = 5;
+
 speed = 2;
 
 if ( instance_exists(obj_player) )

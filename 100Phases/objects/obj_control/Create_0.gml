@@ -4,7 +4,7 @@ time = 1*room_speed;
 alarm[0] = time;
 
 point = 0;
-level = 99;
+level = 1;
 next_level = 5;
 
 gain_point = function(_point)
@@ -27,17 +27,7 @@ generator_enemies = function ()
 	
 	var percentage = random_range(0, level);
 
-	var enemies = obj_enemies02;
-	
-	if ( percentage > 2 ) 
-	{
-		enemies = obj_enemies02;
-	}
-	
-	if (percentage > 5 )
-	{
-		enemies = obj_enemies02;	
-	}
+	var enemies = choose( obj_enemies01,obj_enemies02,obj_enemies03,obj_enemies04,obj_enemies05,obj_enemies06 );
 	
 	instance_create_layer(xx, yy, "Enemies", enemies);
 
